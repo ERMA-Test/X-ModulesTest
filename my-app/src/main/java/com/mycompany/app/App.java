@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! Submodules are great und fun" );
+        System.out.println( "Hello World! Submodules are great und fun but a little bit strange" );
     }
 }
