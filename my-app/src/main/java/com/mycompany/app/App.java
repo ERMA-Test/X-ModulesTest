@@ -8,10 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! Submodules are great und fun but a little bit strange" );
+        System.out.println( "Hello World!" );
         for (int i = 0; i < 5; i++) {
-            System.out.println("what do you like?");
             System.out.println("I like submodules");
+            System.out.println("I like submodules");
+
         }
     }
 }
