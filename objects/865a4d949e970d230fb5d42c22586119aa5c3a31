@@ -1,0 +1,24 @@
+[map "14368c84-e943-3cbe-9b26-3d0b790cf1a8"]
+	object = 1a43a5b66621006feba9f77fe30084145adb54f6
+	path = components/component1
+	stage = sync
+	type = extract module
+[module "a4c6ea1d-49e7-304f-9776-e43f7ed8f0f2"]
+	conflict = request-pull
+	path = components/component1
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/784103127
+[module "a68eb205-3455-3cfd-9aaa-5c21bfd87597"]
+	conflict = request-pull
+	path = components/component2
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/784103261
+[map "f9bec397-7e6f-3f34-b939-1402644c8435"]
+	object = 2c7514e146c7b905f935c2894f8e3cbed508e875
+	path = components/component2
+	stage = sync
+	type = extract module
