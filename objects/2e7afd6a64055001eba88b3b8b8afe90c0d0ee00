@@ -1,0 +1,4 @@
+[map "013eca37-5913-3d77-9966-50e8bea57833"]
+	object = 706eeac7a9fe39cd9b7e1bc5d017bdd2a03dcccc
+	path = plugins/plugin1
+	type = expand module
