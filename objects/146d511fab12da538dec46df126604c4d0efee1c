@@ -1,0 +1,4 @@
+[map "4aba5957-f089-3095-9da5-9f79ae4b5ceb"]
+	object = 41c5bb16008740cdf654f38ccd815ae053971d35
+	path = components/component1
+	type = expand module
