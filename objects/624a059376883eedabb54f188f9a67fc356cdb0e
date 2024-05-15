@@ -1,0 +1,48 @@
+[map "1eea6e4b-29ba-327a-b9d6-20b70de744d1"]
+	object = c8f3eb93c1b1a82055640e63750f95c0d0ebf249
+	path = plugins/plugin2
+	stage = sync
+	type = extract module
+[map "ff9240d1-f6f9-33c7-b459-776dd555cafa"]
+	object = 306e316e292a72462b0a407f91f6a1a7f6774d6f
+	path = components/component1
+	stage = sync
+	type = extract module
+[map "2a2da506-a3f0-394a-b4f1-f9a1a0c0e3f6"]
+	object = 2e7afd6a64055001eba88b3b8b8afe90c0d0ee00
+	path = plugins/plugin1
+	stage = sync
+	type = extract module
+[module "bba50347-2d06-3c51-98da-cd907cfefa35"]
+	conflict = request-pull
+	path = plugins/plugin2
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/784109902
+[module "a4c6ea1d-49e7-304f-9776-e43f7ed8f0f2"]
+	conflict = request-pull
+	path = components/component1
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/784103127
+[module "2c4b50ab-47c0-302f-ad22-24aa06e66724"]
+	conflict = request-pull
+	path = plugins/plugin1
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/784109530
+[module "a68eb205-3455-3cfd-9aaa-5c21bfd87597"]
+	conflict = request-pull
+	path = components/component2
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/784103261
+[map "4fe79bd7-a1be-3a46-8152-62eafc8bb1e5"]
+	object = 91c58cb7145beea42f743dc00b9e8b7754da4879
+	path = components/component2
+	stage = sync
+	type = extract module
